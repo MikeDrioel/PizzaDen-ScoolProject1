@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8" />
+		<title> About </title>
+		<link rel="stylesheet" href="./main.css" media="screen" />
+  </head>
+
+  <body>
+    <div class="body2">
+
+      <div class="bar">
+        <img class="logo" alt="Logo" src="./Logo & Icon/PizzaDen Logo + Text.png">
+        <a class="winkelmandje" href="winkelmandje.html"><img class="cart" src="./Logo & Icon/ic_shopping_cart_black_24dp_2x.png"></a>
+        <nav class="menu">
+          <a class="menu_click" href="./index.html"> Home </a>
+          <a class="menu_click" href="./menukaart.html"> Menukaart </a>
+          <a class="menu_click" href="./over_ons.html"> Over ons </a>
+          <a class="menu_click" href="./contact.html"> Contact </a>
+        </nav>
+      </div>
+
+
+      <section class="section2">
+
+        <article class="section2_article">
+			<div class="container">
+          <div class="line2"></div><h1 class="title2"> Wie zijn wij </h1><div class="line2"></div><br/>
+
+					<div class="personeel">
+						<img class="personeel_img" alt="Logo" src="./images/pizzabakker.png">
+						<h3> Sander .B </h3>
+						<p> Eigenaar </p>
+					</div>
+
+					<div class="personeel">
+						<img class="personeel_img" alt="Logo" src="./images/pizzabakker.png">
+						<h3> Peter .H </h3>
+						<p> Manager </p>
+					</div>
+
+					<div class="personeel">
+						<img class="personeel_img" alt="Logo" src="./images/pizzabakker.png">
+						<h3> Irma .S </h3>
+						<p> Chefkok </p>
+					</div>
+			</div>
+
+        </article>
+        <article class="section2_article">
+          <div class="line2"></div><h1 class="title2"> Geschiedenis </h1><div class="line2"></div>
+          <p class="article_informatie"> De oorsprong van de pizza ligt in het Midelandse Zeegebied. In veel landen rond de Middelandse Zee worden al duizenden jaren ronde broden gebakken, die als borden dienden. Volgens de overlevering moest de Trojaanse held Aeneas een stad (Lavinium) stichten op de plek waar hij van honger zelfs de leeggegeten borden [dus: broodborden] op gaat eten,' - versregel 125 boek VII uit de Aeneis. Ronde Turkse broden kunnen vandaag de dag nog dienstdoen als provisorische pizzabodems. Ook de vorm van matsed is rond of ovaal. </p>
+        </article>
+
+			</section>
+
+
+		</div>
+		<div class="body2">
+
+			<section class="section2">
+
+        <article>
+          <div class="line2"></div><h1 class="title2"> Openingstijden </h1><div class="line2"></div>
+
+					<div class="openingstijden">
+						<ul class="openingstijden_lijst">
+							<li class="openingstijden_dag"> Maandag </li>
+							<li class="openingstijden_dag"> Dinsdag </li>
+							<li class="openingstijden_dag"> Woensdag </li>
+							<li class="openingstijden_dag"> Donderdag </li>
+							<li class="openingstijden_dag"> Vrijdag </li>
+							<li class="openingstijden_dag"> Zaterdag </li>
+							<li class="openingstijden_dag"> Zondag </li>
+						</ul>
+
+						<ul class="openingstijden_lijst">
+							<li class="openingstijden_dag"> 14:00 - 20:00 </li>
+							<li class="openingstijden_dag"> 14:00 - 20:00 </li>
+							<li class="openingstijden_dag"> 14:00 - 20:00 </li>
+							<li class="openingstijden_dag"> 14:00 - 20:00 </li>
+							<li class="openingstijden_dag"> 14:00 - 01:00 </li>
+							<li class="openingstijden_dag"> 12:00 - 01:00 </li>
+							<li class="openingstijden_dag"> 12:00 - 18:00 </li>
+						</ul>
+					</div>
+
+        </article>
+
+        <article class="section2_article">
+          <div class="line2"></div><h1 class="title2"> Vestiging </h1><div class="line2"></div>
+          <p> we zitten gevestigd in Antwerpen. </p> <br/>
+					<p> 4596 HF, Antwerpen </p>
+					<p> Kerkstraat 44 </p>
+        </article>
+
+      </section>
+
+			<div id="googleMap"></div>
+
+			<script>
+			function myMap() {
+			var mapProp= {
+					center:new google.maps.LatLng(51.508742,-0.120850),
+					zoom:5,
+			};
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+			</script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
+
+			<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+			<script  src="js/about.js"></script>
+
+		<footer class="footer">
+
+			<article class="footer_copyright">
+				<p class="copyright"> © 2017 Pizza Den Magnificent Taste </p>
+			</article>
+
+		</footer>
+
+		</div>
+
+  </body>
+</html>
